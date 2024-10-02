@@ -1,0 +1,52 @@
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px 500px;
+    grid-template-rows: 400px 50px 800px 50px;
+    grid-template-areas: 
+    'enc enc enc enc enc'
+    'en en en en en '
+    'cro cro r r tex'
+    'pie pie pie pie pie'
+    
+    
+    
+    
+    
+    ;
+}
+.Enc{
+    background-color: burlywood;
+    grid-area: enc;
+}
+.enla{
+    background-color: cadetblue;
+    grid-area: en;
+}
+.cro{
+    background-color: cornflowerblue;
+    grid-area: cro;
+}
+.red{
+    background-color: darkslategray;
+    grid-area: r;
+}
+.text{
+    background-color: lightblue;
+    grid-area: tex;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Enc img{
+    width: 2500px;
+    height: 400px;
+}
+.enla a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5px;
+}

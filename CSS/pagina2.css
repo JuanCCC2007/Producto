@@ -1,0 +1,67 @@
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px 500px  ;
+    grid-template-rows: 400px 50px 800px 50px;
+    grid-template-areas: 
+    'enc enc enc enc enc'
+    'en en en en en'
+    'mi mi vi vi fo'
+    'pie pie pie pie pie'
+    
+    
+    ;
+
+
+
+
+}
+.Enc{
+    background-color:yellow ;
+    grid-area: enc;
+}
+.enla{
+    background-color: rgb(15, 56, 42);
+    grid-area: en;
+   
+}
+.mi{
+    background-color: rgb(14, 37, 53);
+    grid-area: mi;
+    color: aliceblue;
+}
+.vi{
+    background-color: rgb(16, 58, 59);
+    grid-area: vi;
+    color: aliceblue;
+}
+.foto{
+    background-color: rgb(9, 43, 31);
+    grid-area: fo;
+
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+}
+.Enc img{
+    height: 400px;
+    width: 2500px;
+}
+.enla a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 5px;
+}
+.foto img{
+    width: 200px;
+    height: 200px;
+    margin-top: 35px;
+}
+.mi p{
+    margin-top: 300px;
+}
+.vi p{
+    margin-top: 300px;
+}
